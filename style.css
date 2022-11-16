@@ -1,0 +1,79 @@
+/* document css */
+
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    text-decoration: none;
+    max-width: 1100px;
+    color: white;
+}
+
+body{
+    background-color: #0F1118;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+    margin: 4px;
+}
+
+h1{
+    padding-bottom: 27px;
+    font-size: 25px;
+    padding-left: 8px;
+}
+
+p{
+    text-align: center;
+    margin: 8px;
+}
+
+a{
+    color: #8098ff;
+}
+
+img{
+    width: 60px;
+    
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+}
+
+.login_card{
+    display: flex;
+    flex-direction: column;
+    paddig: 100px;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login input{
+    outline: none;
+    color: black;
+    padding: 12px;
+    margin-top: 9px;
+}
+
+.button_click{
+    border-radius: 22px;    
+}
+
+#input_black{
+    background-color: black;
+    color: white;
+    border: none;
+    
+    padding: px;
+}
